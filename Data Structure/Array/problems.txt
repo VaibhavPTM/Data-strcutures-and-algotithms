@@ -1,0 +1,4 @@
+1 . Problem Name : Maximum Sum Triplet
+    Link : https://www.interviewbit.com/problems/maximum-sum-triplet/
+2.  Problem Name : Rotate Image
+    Link : https://leetcode.com/problems/rotate-image/
