@@ -21,8 +21,7 @@ void main()
     create(list);
 
     char choise;
-    while (1)
-    {
+    while (1) {
         printf("\n\np for print, d for delete, i for insert and q for quit : ");
         scanf(" %c", &choise);
 

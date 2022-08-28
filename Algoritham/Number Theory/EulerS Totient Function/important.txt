@@ -1,0 +1,16 @@
+# coprime number 
+    x said to be coprime with n when GCD(x,n) = 1;
+
+# EulerS Totient Function phi(n)
+    phi(n) will return the number between 1 to n which are coprime to N
+
+    # for prime number
+    phi(prime) = prime - 1
+    phi(prime ^ x) = prime ^ x - (multiples of prime till prime ^ x)
+                   = p ^ x - (p^x / p)
+                   = p ^ (x-1) * (p-1)
+
+    # for any number
+    An arithmetic function F(x) is called mulitiplicative if
+        F(n*m) = F(n) * F(m) Where GCD(n,m) = 1;           
+ 

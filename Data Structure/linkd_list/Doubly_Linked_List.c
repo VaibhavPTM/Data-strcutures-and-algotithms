@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct linked_list
-{
+typedef struct linked_list {
     int num;
     struct linked_list *next;
     struct linked_list *prev;
@@ -16,8 +15,7 @@ void insert(int);
 node* findNode(int);
 void delet(int);
 
-int main()
-{
+int main() {
     // Creating a doubly linked list
     int i;
 

@@ -45,8 +45,7 @@ int main()
     {
         cin >> val[i];
     }
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cin >> wt[i];
     }
     cout << knapSack(w, wt, val, n);

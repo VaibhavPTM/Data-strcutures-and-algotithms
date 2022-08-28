@@ -1,0 +1,19 @@
+# Simple modulo arithmatic
+    (a + b) % n = ((a % n) + (b % n)) % n 
+    (a * b) % n = ((a % n) * (b % n)) % n
+    if (A ≡ B) % n than  (A-B ≡ 0) % n and (A-B) is divisible by n
+        A-B = N * K (where k is (A-B)/n)
+        A = N*K + B
+    if we want to cheack whether number is divisible by 3 or 9 than cheack sum of it's digits is divisible by 3 or 9
+
+
+# Modulo invverse
+    (A / B) % P = ((A % P) * POW(B, P - 2) % P) % P;
+
+# C(N,K) % P Where P is prime and P > N using Modulo inverse
+    C(N,K) = N! / (K! * (N-K)!)
+    C(N,K) % P = (N! % P) / ((K! % P) * ((N-K) % P)!) = ,
+        RES = N! % P;
+        RES = (RES * POW((K! % P) , P - 2)) % P;
+        RES = (RES * POW(((N - K)! % P) , P - 2)) % P;
+

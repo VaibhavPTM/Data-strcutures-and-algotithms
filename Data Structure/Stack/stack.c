@@ -11,8 +11,7 @@ int main()
         switch (c)
         {
         case 'p':
-            if (isEmpty(*s1))
-            {
+            if (isEmpty(*s1)) {
                 printf("Stack is empty, can't do this opration.\n");
                 break;
             }

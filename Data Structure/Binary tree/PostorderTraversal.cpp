@@ -32,8 +32,8 @@ void postOrder(struct  node* root){
     }
 }
 
-int main(){
-     
+int main() {
+    
     // Constructing the root node - Using Function (Recommended)
     struct node *p = createNode(4);
     struct node *p1 = createNode(1);

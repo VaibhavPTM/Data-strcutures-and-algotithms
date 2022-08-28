@@ -1,0 +1,2 @@
+The use of this algorithem is find X and Y such that
+aX + bY = GCD(a,b); ---------------- (a and b are given)

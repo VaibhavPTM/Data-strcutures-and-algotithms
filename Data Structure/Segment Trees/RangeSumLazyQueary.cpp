@@ -84,6 +84,7 @@ int main() {
             cin >> b >> c >> val;
             update(1, 1, n, b, c, val);
         }
+        // 10 10 15 15 15
     }
     return 0;
 }

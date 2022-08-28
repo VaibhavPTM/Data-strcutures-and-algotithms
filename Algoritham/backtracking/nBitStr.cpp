@@ -21,6 +21,6 @@ void bitStr(int n){
 }
 
 int main(){
-    bitStr(2);
+    bitStr(3);
     return 0;
 }

@@ -45,6 +45,7 @@ void init(int l , int r){
                 arr[i - l] = 1;
             }
         }
+        // else break;
     }
     for (int i = 0; i < maxn; i++)
     {
